@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>JR Resort</title>
+</head>
+<body>
+
+    <header>
+        
+        <nav class="nav-links">
+            <a href="#" class="nav-logo">JR Resort</a>
+            <ul class="sidebar">
+                <li onclick="hideSidebar ()"><i class="ri-close-large-line"></i></li>
+                <li class="nav-item"><a href="#">Property </a></li>
+                <li class="nav-item"><a href="#">History</a></li>
+                <li class="nav-item"><a href="#">Gallery</a></li>
+                <li class="nav-item"><a href="#">Activities</a></li>
+                <li class="nav-item nav-button"><a href="#">Book Now</a></li>
+                
+            </ul>
+            <ul class="nav-list">
+                
+                <li class="nav-item"><a href="#">Property </a></li>
+                <li class="nav-item"><a href="#">History</a></li>
+                <li class="nav-item"><a href="#">Gallery</a></li>
+                <li class="nav-item"><a href="#">Activities</a></li>
+                <li class="nav-item nav-button"><a href="#">Book Now</a></li>
+                <li onclick="showSidebar ()"><i class="ri-menu-fill"></i></li>
+                
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-left">
+                <img src="img/pexels-gerritttisdale-903028.jpg" alt="" loading="lazy">
+                <div class="overlay"></div>
+                <div class="left-text">
+                    <h1 class="hero-title">Experience <br>the Big Island</h1>
+                    <p class="hero-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione.</p>
+                    <a href="#" class="hero-btn">Explore Now</a>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <img src="img/pexels-pixabay-259825.jpg" alt="" loading="lazy">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="activity-section">
+            <div class="left">
+                <img src="img/pexels-madelynemery-816198.jpg" alt="" loading="lazy">
+            </div>
+            <div class="right">
+                <img src="img/pexels-ayudia-2147756332-29863339.jpg" alt="" loading="lazy">
+                <img src="img/pexels-sami-laughlin-399891-29870780.jpg" alt="" loading="lazy">
+            </div>
+        </section>
+        <section class="property-section">
+            <div class="left-prop">
+                <h1>The Perfect Place</h1>
+                <p>Our resort offers a variety of rooms and suites to suit your needs.</p>
+                <a href="#" class="prop-btn">Explore Property</a>
+            </div>
+            <div class="right-prop">
+                <img src="img/pexels-yilin-mo-214378579-29856508.jpg" loading="lazy">
+            </div>
+        </section>
+    </main>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
